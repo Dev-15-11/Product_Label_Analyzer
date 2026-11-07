@@ -71,8 +71,6 @@ The model settings in `.env.example` can be changed if needed. Keep `.env` priva
 python -m uvicorn app.main:app --reload
 ```
 
-Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for interactive API documentation, or [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health) for the health check.
-
 To upload a sample image and save the generated PDF:
 
 ```powershell
